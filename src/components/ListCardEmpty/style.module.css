@@ -1,0 +1,13 @@
+@import "../../styles/index.css";
+
+.div__cardEmpty {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.div__cardEmpty > h2 {
+    font-size: var(--font-2);
+    font-weight: var(--weight-4);
+    color: var(--grey-4);
+}

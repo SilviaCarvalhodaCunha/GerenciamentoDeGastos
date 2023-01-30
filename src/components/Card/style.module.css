@@ -1,0 +1,56 @@
+@import "../../styles/index.css";
+
+.li__containerEntry {
+    height: 156px;
+    padding: 1rem 0.875rem;
+    margin-bottom: 19px;
+    background-color: var(--grey-1);
+    border-radius: var(--radius-2);
+    border-left: 5px solid var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.li__containerExpense {
+    height: 156px;
+    padding: 1rem 0.875rem;
+    margin-bottom: 19px;
+    background-color: var(--grey-1);
+    border-radius: var(--radius-2);
+    border-left: 5px solid var(--grey-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.li__containerEntry > h2,
+.li__containerExpense >h2 {
+    font-size: var(--font-3);
+    font-weight: var(--weight-4);
+    color: var(--grey-5);
+}
+
+.li__containerEntry > span,
+.li__containerExpense > span {
+    font-size: var(--font-5);
+    font-weight: var(--weight-1);
+    color: var(--grey-4);
+}
+
+.li__containerEntry > p,
+.li__containerExpense > p {
+    font-size: var(--font-5);
+    font-weight: var(--weight-1);
+    color: var(--grey-5);
+}
+
+.li__containerEntry > button,
+.li__containerExpense > button {
+    padding: 0.188rem 0.5rem;
+    background-color: var(--grey-2);
+    border-radius: 3px;
+}

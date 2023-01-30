@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #FD377E;
+    --color-primary-2: #E34981;
+    --color-secondary: #03B898;
+
+    --white: #FFFFFF;
+    --grey-1: #F8F9FA;
+    --grey-2: #E9ECEF;
+    --grey-3: #868E96;
+    --grey-4: #343A40;
+    --grey-5: #212529;
+
+
+    --font-1: 2.375rem; /* 38px */
+    --font-2: 1.375rem; /* 22px */
+    --font-3: 1rem; /* 16px */
+    --font-4: 0.875rem; /* 14px */
+    --font-5: 0.75rem; /* 12px */
+
+    --weight-1: 400;
+    --weight-2: 500;
+    --weight-3: 600;
+    --weight-4: 700;
+    --weight-5: 800;
+
+    --radius: 0.5rem; /* 8px */
+    --radius-2: 0.25rem; /* 4px */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;;
+}
