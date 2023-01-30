@@ -9,19 +9,23 @@ export function Card({ card, removeCard }) {
         <li className={styles.li__containerEntry}>
           <h2>{card.description}</h2>
           <span>{card.option}</span>
-          <p>R$ {card.value}</p>
-          <button onClick={() => removeCard(card.id)}>
-            <img src={trash} alt="trash" />
-          </button>
+          <div className={styles.li__div}>
+            <p>R$ {card.value}</p>
+            <button onClick={() => removeCard(card.id)}>
+              <img src={trash} alt="trash" />
+            </button>
+          </div>
         </li>
       ) : (
         <li className={styles.li__containerExpense}>
           <h2>{card.description}</h2>
           <span>{card.option}</span>
-          <p>R$ {card.value}</p>
-          <button onClick={() => removeCard(card.id)}>
-            <img src={trash} alt="trash" />
-          </button>
+          <div className={styles.li__div}>
+            <p>R$ {card.value}</p>
+            <button onClick={() => removeCard(card.id)}>
+              <img src={trash} alt="trash" />
+            </button>
+          </div>
         </li>
       )}
     </>
