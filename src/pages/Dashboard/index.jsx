@@ -38,9 +38,7 @@ export const Dashboard = ({ setCurrentPage }) => {
           <section className={styles.section__value}>
             {listCard.length > 0 ? (
               <TotalValue list={listCard} />
-            ) : (
-              console.log("vazio")
-            )}
+            ) : null }
           </section>
         </section>
         <section className={styles.main__containerList}>
